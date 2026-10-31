@@ -99,7 +99,7 @@ httpRoute:
         type: PathPrefix
         value: /
       backendRefs:
-      - name: python-app-service
+      - name: python-app
         port: 8080
   #   filters:
   #   - type: RequestHeaderModifier
